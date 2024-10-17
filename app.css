@@ -1,75 +1,37 @@
-.bigbox1 {
-	background-color: #ff0000;
+body {
+font-family: "Raleway", sans-serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
 }
 
-.bigbox2 {
-background-color: #f89828;
+a {
+	color:#2568ff;
+	font-weight:900;
 }
 
-.bigbox3 {
-	background-color: green;
+
+.headline {
+background-color:#6f6a64;
+color:#fff;
+font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+font-weight: 900;
+font-style: normal;
+padding: 50px 0 50px 0;
+text-align: center;
 }
 
-.bigbox4 {
-	background-color: #ff0000;
+.bodySpace {
+	margin-top:50px;
 }
 
-.bigbox5 {
-	background-color: green;
+.trackList {
+	color:#333;
 }
 
-.bigbox6 {
-	background-color: #b0a8ba;
-}
+.footer {
+	background-color:#e8c813;
+	color:#333;
 
-.bigbox7 {
-	background-color: #a1e5e4;
-}
-
-.bigbox8 {
-	background-color: #c4b242;
-}
-
-.bigbox9 {
-	background-color: #9c70dc;
-}
-
-.bigbox10 {
-	background-color: #2e0966;
-}
-
-.bigbox11 {
-	background-color: #a57e72;
-}
-
-.bigbox12 {
-	background-color: #199784;
-}
-
-.bigbox13 {
-	background-color: #7a4cae;
-}
-
-.bigbox14 {
-	background-color: #cad768;
-}
-
-.bigbox15 {
-	background-color: #64d3ec;
-}
-
-.bigbox16 {
-	background-color: #0da645;
-}
-
-.bigbox17 {
-	background-color: #6182ba;
-}
-
-.bigbox18 {
-	background-color: #fded54;
-}
-
-.bigbox19 {
-	background-color: #2d44b5;
 }
