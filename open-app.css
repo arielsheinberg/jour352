@@ -1,0 +1,148 @@
+.box1 {
+  width:100%;
+  height:100%; 
+  text-align: left;
+  background-color:#FFF; 
+  color:#000;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.headline {
+  font-family: Crimson Text;
+  padding-top: 30px;
+}
+
+
+.subtitle {
+    font-family: Montserrat;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.bodySpace {
+  font-family: Crimson Text;
+  float: left;
+  margin-left: 20px;
+}
+
+.headerImage {
+ float: left;
+ margin-bottom: 10px;
+}
+
+.byline {
+  color: #000;
+  padding-top: 15px;
+}
+
+.hr {
+  height: 5px;            /* Make the line thicker */
+  background-color: #333;  /* Set the color */
+  margin: 20px;
+}
+
+.text-container {
+width:100%;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between; /* Align text to the left and video to the right */
+  align-items: flex-start; /* Aligns items at the top */
+}
+
+.text-container {
+  width: 90%;
+  display: flex; /* Adjust width to leave space for the video */
+   padding-left: 20px;
+}
+
+
+/* Pull quote! */
+.pull-quote {
+ font-weight: 400;
+  letter-spacing: 1.5px;
+  font-style: normal;
+  font-size: 0.75rem;
+  max-width: 50%;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  color: #1779ba;
+  background: linear-gradient(#767676, #1779ba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pull-quote:before {
+  content: '';
+}
+
+.pull-quote:after {
+  content: '';
+}
+
+@media print, screen and (min-width: 40em) {
+  .pull-quote {
+    font-size: 1.875rem;
+    max-width: calc(50% - 5%);
+    margin-right: -15%;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  .pull-quote {
+    max-width: calc(50% + 5%);
+    margin-right: -25%;
+  }
+}
+
+
+
+.video-container {
+height: 50px;
+margin-top: 10px;
+margin-left: 40px;
+}
+
+.rightImage {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 400px; /* Optional: Limit maximum width */
+    margin-left: 60px;
+}
+
+
+.center-image {
+  display: block;
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+.rightImage2 {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 400px; /* Optional: Limit maximum width */
+    margin-left: 40px;
+}
+
+.map {
+  padding-right: 10px;
+}
+
+
+.box4 {
+width: 100%; 
+height: 100%; 
+background-color: #FFF; 
+color: #000; 
+align-items: center; 
+padding: 30px;
+font-family: Crimson Text;
+text-align: center;
+}
+
+
+
+
+
+
