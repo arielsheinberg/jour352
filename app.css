@@ -1,37 +1,63 @@
+/* GLOBAL ARTICLE STYLES */
+
 body {
-font-family: "Raleway", sans-serif;
-font-optical-sizing: auto;
-font-weight: 300;
-font-style: normal;
+
 }
 
-a {
-	color:#2568ff;
-	font-weight:900;
-}
-
-
-.headline {
-background-color:#6f6a64;
-color:#fff;
-font-family: "Oswald", sans-serif;
-font-optical-sizing: auto;
-font-weight: 900;
-font-style: normal;
-padding: 50px 0 50px 0;
+.h1 {
 text-align: center;
 }
 
-.bodySpace {
-	margin-top:50px;
+p {
+
 }
 
-.trackList {
-	color:#333;
+
+.navStyle {
+	background-color: #000;
+	color: #fff;
+	height: 50px;
+	padding: 12px;
+	text-align: center;
+}
+.navStyle a {
+	color: #f4f4f4;
+	text-decoration: none;
+}
+.navStyle a:hover {
+	color: #009cff;
+}
+.navItem {
+	margin: 0 25px 0 25px;
+}
+.headline {
+		padding: 20px 0 0 0;
+}
+.bodyCopy {
+	padding: 50px 0 0 0;
+}
+.footerStyle {
+	background-color: #009cff;
+	color: #fff;
+	padding: 12px;
+	height: 50px;
+	text-align: center;
+	margin-top: 50px;
 }
 
-.footer {
-	background-color:#e8c813;
-	color:#333;
+.callout {
+	background-color: #f4f4f4;
+}
 
+.rtt {
+	text-align: center;
+	margin-top: 50px;
+}
+.rtt a {
+	color: #009cff;
+	text-decoration: none;
+	font-weight: bold;
+}
+.rtt a:hover {
+	color: #09639c;
 }
